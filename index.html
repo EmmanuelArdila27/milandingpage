@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <details class="accordion-nav">
+                <summary class="nav-link">Menú</summary>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </details>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./WhatsApp Image 2025-08-30 at 9.04.56 PM.jpeg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Emmanuel Ardila Florez</h1>
+            <p class="profile-summary">
+                Soy estudiante del colegio CASD Jose Prudencio Padilla, soy de grado 11°05, y me gusta el arroz chino
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="mailto:mielman007@gmail.com ">mielman007@gmail.com </a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+573114878133" target="_blank" rel="noopener noreferrer">+57 3114878133</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios y Experiencia</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>Bachiller de secundaria  | Jose Prudencio Padilla CASD</h4>
+                    <p>secundaria | Año de Finalización: 2025</p>
+                    <P>Descripción: estudio de secundaria con énfasis en electronica analoga y digital</P>
+                </li>
+                <li>
+                    <h4>tecnico en mantenimiento de equipos electronicos industriales | SENA</h4>
+                    <p>Ingeniero de Sistemas| Año de Finalización: 2025</p>
+                    <p>Descripción: su enfoque va dirigido a el desarrollo y aplicacion de circuitos electronicos, programacion y diseño de planos electrónicos.</p>
+                </li>
+            </ul>
+
+            <h3>Experiencia Laboral</h3>
+            <ul class="list">
+                <li>
+                    <h4>Horas Sociales | Biblioteca UIS</h4>
+                    <p>Junio de 2024 - agogosto de 2024 <br>Descripción: organice de libros, mantuve en orden dentro de la biblioteca, y mantuve los epacios limpios</p>
+                </li>
+                <li>
+                    <h4>Proyectos acdemicos | Jose Prudencio Padilla CASD</h4>
+                    <p> enero 2024-presente <br>Descripción: Desarrollo de una aplicacion digital en la que el usuario pueda aprender a kugar billar carambola de manera intuitiva y divertida </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>Manejo y aplicacion de componentes electrónicos  </li>
+                    <li>Manejo de tarjeta arduino y programacion</li>
+                    <li>Dominio de la leyes boleana para la simplificacion de circuito</li>
+                    <li>Diseño de planos electrónicos</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>Voluntad y esfuerzo </li>
+                    <li>Responsabilidad y compromiso</li>
+                    <li>Sentido de pertenencia </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <img src="./WhatsApp Image 2025-08-30 at 9.04.56 PM.jpeg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="http://wa.me/+573114878133" target="_blank" class="linktree-link"><strong>WhatsApp</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Emmanuel Ardila Florez <br> Todos los derechos reservados.</p>
+        <p>Desde el ❤️ del CASD para todo el mundo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
